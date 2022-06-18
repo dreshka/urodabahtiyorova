@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Davron Shrift';
+  src: url(Dirtchunk-0W0AR.otf);
+  font-weight: 400;
+}
+
+.test{
+  font-family: 'Davron Shrift', sans-serif;
+}

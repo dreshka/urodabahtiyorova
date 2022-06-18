@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'Davron Shrift';
+  src: url(Dirtchunk-0W0AR.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Davron Shrift2';
+  src: url(Christmas\ ScriptC.ttf);
+}
+@font-face {
+  font-family: 'Davron Shrift3';
+  src: url(Intro.otf);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.header .menu {
+  display: flex;
+  gap: 30px;
+}
+
+
+
+
+
+
+.foods{
+  padding-top: 150px;
+}
+
+.foods .container{
+  width: 1100px;
+}
+
+.foods .card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 150px;
+}
+
+.foods .card .left{
+  width: 330px;
+}
+
+.foods .card .left .sub{
+  font-size: 12px;
+  color: #a8a8a8;
+  text-transform: uppercase;
+  font-family: 'Davron Shrift3',sans-serif;
+}
+
+.foods .card .left .title{
+  font-size: 38px;
+  padding: 25px 0;
+  font-family: 'Davron Shrift2',sans-serif;
+  font-weight: 700;
+}
+
+
+
+
+.services {
+  background-color: #fff;
+  padding: 100px 0;
+}
+
+.services .container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.services .card {
+  width: 250px;
+  text-align: center;
+  border-radius: 7px;
+  border: 1px solid rgba(196, 250, 0, 0.03);
+  transition: 0.5s;
+}
+
+.services .card:hover {
+  box-shadow: 15px 15px 30px rgba(0, 38, 255, 0.1);
+  border: transparent;
+}
+
+.services .card img {
+  padding: 30px 0;
+}
+
+.services .card .title {
+  font-size: 20px;
+  color: #000;
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 600;
+}
+
+.services .card .text {
+  font-size: 14px;
+  font-family: "Hind Madurai", sans-serif;
+  line-height: 20px;
+  padding: 20px;
+}
+.logo .container{
+  text-align: center;
+}
+.logo .container:hover{
+  box-shadow: 15px 15px 30px rgba(0, 38, 255, 0.1);
+  border: transparent;
+}
+.logo .container title{
+  text-align: center;
+}
+
+.right .btn{
+  font-size: 16px;
+  color: #fafafa;
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 700;
+  background-color: #d23166;
+  padding: 14px 50px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
